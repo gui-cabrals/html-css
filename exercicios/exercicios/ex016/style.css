@@ -1,0 +1,34 @@
+
+* { 
+    
+}
+
+body { 
+    background-image: linear-gradient(to right, #D9C79E, #8FD99C);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #8b8066d7;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif; 
+    color: #6A8FD9;
+    text-align: center;
+    text-shadow: 1px 1px 2px #3b507a73;
+}
+
+h2 { 
+    font-family: 'Times New Roman', Times, serif;
+    color: #D9B0B6;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
