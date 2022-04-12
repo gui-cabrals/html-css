@@ -14,5 +14,6 @@ O que vi até o momento durante o curso:
     
   A trilha também foi composta por diversos DESAFIOS e EXERCÍCIOS. Todos realizados com a máxima dedicação e atenção possível para aproveitar ao máximo os momentos de aprendizado.
   
-  Para acessar a pasta de desafios <a href="https://github.com/gui-cabrals/html-css/tree/main/desafios">clique aqui</a>.
-  Para acessar a pasta de exercícios <a href="https://github.com/gui-cabrals/html-css/tree/main/exercicios/exercicios">clique aqui</a>.
+- Para acessar a pasta de desafios <a href="https://github.com/gui-cabrals/html-css/tree/main/desafios">clique aqui</a>.
+  
+- Para acessar a pasta de exercícios <a href="https://github.com/gui-cabrals/html-css/tree/main/exercicios/exercicios">clique aqui</a>.
