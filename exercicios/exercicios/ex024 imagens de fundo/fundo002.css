@@ -1,0 +1,15 @@
+body {
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* -- Para a personalização do background é possível utilizar shorthand, na seguinte ordem: 
+        background-color
+        background-image
+        background-position
+        background-repeat
+        background attachment
+        
+        EX: backgroud: black url('https:www.imagem.com') center center no-repeat fixed; */
+}

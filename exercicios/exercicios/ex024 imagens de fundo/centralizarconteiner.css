@@ -1,0 +1,18 @@
+#fora {
+    height: 98vh;
+    background-color: #BD7DF5;
+    position: relative;
+}
+
+#dentro {
+    height: 200px;
+    width: 300px;
+    background-color: #F5FF40;
+    position: absolute;
+    /* - LEFT e TOP - 
+    São as propriedades que irão definir o alinhamento do retângulo no centro da div #fora*/
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%); /* Move o retângulo para esquerda e para cima, deixando ele fixo no centro da da div #fora*/
+    
+}
