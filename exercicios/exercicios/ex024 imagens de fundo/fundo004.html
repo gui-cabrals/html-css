@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17.5px;
+        }
+
+        .rpt {
+            background-image: url('imagens/pattern001.png');
+            width: 90%;
+            height: 400px;
+            
+        }
+
+        .rptx {
+            background-color: lightblue;
+            background-image: url('imagens/pattern002.png');
+            background-repeat: repeat-x;
+            width: 90%;
+            height: 400px;
+        }
+        .rpty {
+            background-color: lightblue;
+            background-image: url('imagens/pattern003.png');
+            background-repeat: repeat-y;
+            width: 90%;
+            height: 400px;
+        }
+        .norpt {
+            background-color: lightblue;
+            background-image: url('imagens/pattern004.png');
+            background-repeat: no-repeat;
+            width: 90%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Repetições em background-image</h1>
+    <h2>background-repeat: repeat;</h2>
+    <p>Repete a imagem tanto no sentido vertical, quanto horizontal (padrão)</p>
+    <div class="rpt"></div>
+    <h2>background-repeat: repeat-x;</h2>
+    <p>Repete apenas no eixo horizontal.</p>
+    <div class="rptx"></div>
+    <h2>background-repeat: repeat-y</h2>
+    <p>Repete apenas no eixo vertical.</p>
+    <div class="rpty"></div>
+    <h2>background-repeat: no-repeat;</h2>
+    <p>Não repete em nenhum eixo. A imagem só é carregada uma única vez.</p>
+    <div class="norpt"></div>
+</body>
+</html>
