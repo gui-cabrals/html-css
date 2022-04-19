@@ -24,8 +24,6 @@ body {
     font-family: var(--font2);
     min-height: 100vh;
     text-align: justify;
-    line-height: 5.2vw;
-
 }
 
 header {
@@ -52,16 +50,22 @@ header > h3 {
     margin-top: 30px;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 3.5vw;
+}
+
 .white {
-    padding: 30px 50px;
     font-family: var(--font2);
-    font-size: 3.2vw;
+    
 }
 
 .white#pag1 {
     font-family: var(--font2);
-    font-size: 3.2vw;
-    padding: 80px 40px;
+    
 }
 
 white > p {
@@ -69,9 +73,8 @@ white > p {
 }
 
 .picture {
-    padding: 30px 50px;
     font-family: var(--font2);
-    font-size: 3.2vw;
+    
 }
 
 .picture#pag2 {
@@ -82,15 +85,13 @@ white > p {
     background-attachment: fixed;
     box-shadow: 15px 15px 15px black;
     box-shadow: inset 8px 15px 15px rgba(0, 0, 0, 0.318);
-    padding: 80px 40px;
 }
 
-#pag2 > p {
+.picture > p {
     background-color: var(--cortr);
     color: white;
-    height: 36vw;
-    max-width: 40vw;
     padding: 20px;
+    display: inline-block;
 }
 
 .picture#pag4 {
@@ -101,14 +102,6 @@ white > p {
     background-attachment: fixed;    
     box-shadow: 15px 15px 15px black;
     box-shadow: inset 8px 15px 15px rgba(0, 0, 0, 0.318);
-    padding: 80px 40px;
-}
-
-#pag4 > p {
-    background-color: var(--cortr);
-    color: white;
-    height: 36vw;
-    max-width: 40vw;
 }
 
 .linkref {
