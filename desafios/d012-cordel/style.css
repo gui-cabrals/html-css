@@ -63,10 +63,6 @@ section {
     
 }
 
-.white#pag1 {
-    font-family: var(--font2);
-    
-}
 
 white > p {
     padding: 20px;
@@ -74,34 +70,27 @@ white > p {
 
 .picture {
     font-family: var(--font2);
-    
-}
-
-.picture#pag2 {
-    background-image: url(imagens/background001.jpg);
-    background-position: left center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    box-shadow: 15px 15px 15px black;
-    box-shadow: inset 8px 15px 15px rgba(0, 0, 0, 0.318);
+    background-attachment: fixed; 
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.5);
 }
 
 .picture > p {
     background-color: var(--cortr);
     color: white;
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
+    text-shadow: 1px 1px 0px black;
+}
+
+.picture#pag2 {
+    background-image: url(imagens/background001.jpg);
 }
 
 .picture#pag4 {
     background-image: url(imagens/background002.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;    
-    box-shadow: 15px 15px 15px black;
-    box-shadow: inset 8px 15px 15px rgba(0, 0, 0, 0.318);
 }
 
 .linkref {
